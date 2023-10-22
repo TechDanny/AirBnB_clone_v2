@@ -51,7 +51,7 @@ def is_number(n):
 
 
 @app.route("/number_template/<int:n>", strict_slashes=False)
-def numbet_temp(n=None):
+def number_temp(n):
     """
     Gets html file
     """
